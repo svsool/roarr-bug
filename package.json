@@ -1,0 +1,15 @@
+{
+  "name": "roarr-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ROARR_LOG=1 node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@roarr/middleware-serialize-error": "^1.0.0",
+    "roarr": "^2.12.1"
+  }
+}
